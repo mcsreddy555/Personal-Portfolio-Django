@@ -1,0 +1,1 @@
+web:gunicon personal_django.wsgi
