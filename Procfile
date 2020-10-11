@@ -1,1 +1,1 @@
-web:gunicon personal_django.wsgi
+web:gunicorn personal_django.wsgi
