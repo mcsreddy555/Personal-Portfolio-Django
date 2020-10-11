@@ -23,7 +23,7 @@ import django_heroku
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'cgo45pyr=qwl2+k&hbbg)u4p9ld6=cfzlqcj9lh8&z5qjyed5v'
+SECRET_KEY = 'write your key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
