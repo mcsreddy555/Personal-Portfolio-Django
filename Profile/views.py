@@ -7,22 +7,7 @@ from .models import Contact
 
 # Home/Index View
 def index(request):
-    # check post method and request type
-    if request.method == 'POST'and request.is_ajax():
-        # check for empty name field
-        if request.POST['name'] == "":
-            username = "Jane Doe"   #  set default name
-        else:
-            username = request.POST['name']
-        # check for select field
-        if request.POST['gender'] == "Select":
-            gender = "f"
-        else:
-            gender = request.POST['gender']
-        # return name and gender to success in ajax call top update content
-        return HttpResponse(json.dumps({'name': username, 'gender': gender}))
-    else:
-        return render(request, 'mypf/home.html')
+     return render(request, 'mypf/home.html')
 
 
 #Portfolio View
