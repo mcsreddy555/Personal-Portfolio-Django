@@ -1,1 +1,1 @@
-web:gunicorn personalDjango.wsgi
+web:gunicorn personaldjango.wsgi
